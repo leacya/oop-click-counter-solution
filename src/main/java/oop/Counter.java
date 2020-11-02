@@ -6,7 +6,7 @@ package oop;
 
 public class Counter
 {
-    private int count;  // current count , initially 0
+    private int count;  // current count , initially 0 = default value for int
     private int limit;
 
     // Constructor
@@ -18,7 +18,7 @@ public class Counter
 
     public Counter()
     {   // no-argument (default) constructor
-        this.count = 0;
+        this.count = 0;    //explicitly assign value of 0
         this.limit = 10;
     }
 
@@ -43,7 +43,7 @@ public class Counter
         System.out.println("Counter clicked! count = " + this.count);
     }
 
-    //TODO
+    //DONE
     // Implement reset() method to set the count to 0.
     // the value of this counter to 0.
     // Test by calling from App start()
@@ -53,7 +53,7 @@ public class Counter
         this.count = 0;
     }
 
-    //TODO
+    //DONE
     // Implement an undo() method that will reduce the count by one.
     // Do not allow the count to become negative.
     // Print the value of count from the method after the decrement.
