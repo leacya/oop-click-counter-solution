@@ -23,6 +23,35 @@ public class AppTest
         assertEquals(expected, actual);
     }
 
-    //TODO add a test for Counter undo()
+
+//TODO add a test for Counter undo()
+
+    @Test
+    public void undoTest1()
+    {
+        Counter counter = new Counter();
+        counter.click();
+        counter.undo();
+        int expected = 0;
+        int actual = counter.getCount();
+        assertEquals(expected, actual);
+    }
+    @Test
+    public void undoTest2()
+    {
+        Counter counter = new Counter();
+
+        counter.undo();
+        int expected = 0;
+        int actual = counter.getCount();
+        assertEquals(expected, actual);
+    }
 
 }
+
+
+
+
+//
+//
+//
