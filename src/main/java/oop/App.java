@@ -56,6 +56,21 @@ public class App
         busCounter.display();
 
 
+        busCounter.reset();
+        busCounter.click();
+        busCounter.click();
+        busCounter.click();
+        busCounter.click();
+        busCounter.click();
+        busCounter.click();
+        busCounter.click();
+        busCounter.click();
+        busCounter.click();
+        busCounter.click();
+        busCounter.click();
+        busCounter.display();
+
+
 
     }
 
